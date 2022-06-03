@@ -1,15 +1,15 @@
-.cart-block {
+.container {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.cart-block-icon {
+.icon {
   cursor: pointer;
   position: relative;
 }
 
-.cart-block-total-price {
+.price {
   margin-left: 15px;
   font-size: 18px;
   font-weight: bold;

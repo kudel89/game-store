@@ -1,4 +1,4 @@
-.game-item {
+.card {
   text-decoration: none;
   color: #fff;
   width: 320px;
@@ -9,32 +9,32 @@
   background-color: rgb(37, 37, 37);
 }
 
-.game-item:not(:last-child) {
+.card:not(:last-child) {
   margin-bottom: 30px;
   margin-right: 50px;
 }
 
-.game-item-title {
+.title {
   font-size: 18px;
   font-weight: bold;
 }
 
-.game-item-genre {
+.genre {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.game-item-detaile {
+.detailes {
   padding: 10px 20px;
 }
 
-.game-item-description {
+.description {
   margin-top: 10px;
   font-size: 14px;
 }
 
-.game-item-buy {
+.buy {
   position: relative;
   right: 0;
   bottom: -12px;

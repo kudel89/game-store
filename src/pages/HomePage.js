@@ -1,6 +1,6 @@
 import React from "react";
-import "./home-page.css";
-import { GameItem } from "./../components/game-item/game-item";
+import styles from "./HomePage.module.css";
+import { GameItem } from "../components/GameItem/GameItem";
 
 const GAMES = [
   {
@@ -67,7 +67,7 @@ const GAMES = [
 
 export const HomePage = () => {
   return (
-    <div className="home-page">
+    <div className={styles.container}>
       {GAMES.map((game) => (
         <GameItem game={game} id={game.id} />
       ))}

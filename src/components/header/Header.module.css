@@ -8,19 +8,19 @@
   background-color: rgb(55, 55, 55);
 }
 
-.header-wrapper {
+.container {
   display: flex;
   flex-grow: 1;
 }
 
-.header-store-title {
+.title {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
 }
 
-.header-cart-btn {
+.button {
   color: #fff;
   justify-content: flex-end;
 }
