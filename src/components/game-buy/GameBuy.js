@@ -1,10 +1,14 @@
 import React from "react";
+import { Button } from "../button/Button";
 import styles from "./GameBuy.module.css";
 
 export const GameBuy = ({ game }) => {
   return (
-    <button className={styles.button}>
+    <div className={styles.button}>
       <span className={styles.price}>{game.price} грн.</span>
-    </button>
+      <Button type="primary" onClick={() => null}>
+        В корзину
+      </Button>
+    </div>
   );
 };
