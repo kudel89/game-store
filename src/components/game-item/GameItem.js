@@ -13,7 +13,7 @@ export const GameItem = ({ game }) => {
         <div className={styles.genre}>{game.genres.map((genre) => genre)}</div>
         <p className={styles.description}>{game.description}</p>
         <div className={styles.buy}>
-          <GameBuy />
+          <GameBuy game={game} />
         </div>
       </div>
     </div>
