@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { CartBlock } from "../cart-block";
 import styles from "./Header.module.css";
-import { CartBlock } from "../CartBlock";
 
 export const Header = () => {
   return (

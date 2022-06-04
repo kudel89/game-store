@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HomePage.module.css";
-import { GameItem } from "../components/GameItem/GameItem";
+import { GameItem } from "../../components/game-item/GameItem";
 
 const GAMES = [
   {
