@@ -1,13 +1,14 @@
 import React from "react";
-import classNames from "classnames";
+import cx from "classnames";
+import styles from "./Button.module.css";
 
 export const Button = ({ onClick, type, children, size = "s" }) => {
-  const btnClass = classNames({
-    btn: true,
-    "btn-secondary": type === "secondary",
-    "btn-primary": type === "primary",
-    "btn-small": type === "s",
-    "btn-medium": type === "m",
+  const btnClass = cx(styles.btn, {
+    [styles["btn-primary"]]: type === "primary",
+    [styles["btn-secondary"]]: type === "secondary",
+    [styles["btn-small"]]: size === "s",
+    [styles["btn-medium"]]: size === "m",
   });
+
   return <button className={btnClass}>{children}</button>;
 };
