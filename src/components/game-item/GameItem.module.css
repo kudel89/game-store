@@ -1,17 +1,18 @@
 .card {
+  cursor: pointer;
+  display: flex;
+  margin-top: 48px;
+  width: 320px;
   text-decoration: none;
   color: #fff;
-  width: 320px;
-  height: 320px;
-  cursor: pointer;
-  position: relative;
-  border-radius: 15px;
   background-color: rgb(37, 37, 37);
+  border-radius: 15px;
 }
 
-.card:not(:last-child) {
-  margin-bottom: 30px;
-  margin-right: 50px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
 .title {
@@ -20,22 +21,24 @@
 }
 
 .genre {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 10px;
+}
+
+.top-content {
   display: flex;
   flex-wrap: wrap;
 }
 
 .detailes {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
   padding: 10px 20px;
 }
 
 .description {
   margin-top: 10px;
   font-size: 14px;
-}
-
-.buy {
-  position: relative;
-  right: 0;
-  bottom: -12px;
 }
