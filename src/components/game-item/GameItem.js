@@ -1,6 +1,7 @@
 import React from "react";
 import { GameCover } from "../game-cover/GameCover";
 import { GameBuy } from "../game-buy/GameBuy";
+import { GameGenre } from "./../game-genre/GameGenre";
 import styles from "./GameItem.module.css";
 
 export const GameItem = ({ game }) => {
@@ -13,7 +14,9 @@ export const GameItem = ({ game }) => {
           <div className={[styles["top-content"]]}>
             <span className={styles.title}>{game.title}</span>
             <div className={styles.genre}>
-              {game.genres.map((genre) => genre)}
+              {game.genres.map((genre) => (
+                <GameGenre genre={genre} />
+              ))}
             </div>
             <p className={styles.description}>{game.description}</p>
           </div>
