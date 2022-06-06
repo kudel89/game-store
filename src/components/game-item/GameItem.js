@@ -6,13 +6,17 @@ import styles from "./GameItem.module.css";
 export const GameItem = ({ game }) => {
   return (
     <div className={styles.card}>
-      <GameCover image={game.image} />
+      <div className={styles.container}>
+        <GameCover image={game.image} />
 
-      <div className={styles.detailes}>
-        <span className={styles.title}>{game.title}</span>
-        <div className={styles.genre}>{game.genres.map((genre) => genre)}</div>
-        <p className={styles.description}>{game.description}</p>
-        <div className={styles.buy}>
+        <div className={styles.detailes}>
+          <div className={[styles["top-content"]]}>
+            <span className={styles.title}>{game.title}</span>
+            <div className={styles.genre}>
+              {game.genres.map((genre) => genre)}
+            </div>
+            <p className={styles.description}>{game.description}</p>
+          </div>
           <GameBuy game={game} />
         </div>
       </div>
