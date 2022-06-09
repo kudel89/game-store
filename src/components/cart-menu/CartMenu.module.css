@@ -1,15 +1,12 @@
 .container {
   position: absolute;
   top: 30px;
-  left: -300px;
+  right: 30px;
   width: 400px;
   padding: 10px 20px;
   background-color: rgb(37, 37, 37);
   border-radius: 15px;
   z-index: 2;
-}
-
-.game-list {
 }
 
 .game-arrange {
