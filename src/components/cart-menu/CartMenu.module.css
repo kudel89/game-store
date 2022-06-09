@@ -1,0 +1,25 @@
+.container {
+  position: absolute;
+  top: 30px;
+  left: -300px;
+  width: 400px;
+  padding: 10px 20px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.game-list {
+}
+
+.game-arrange {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.total-price {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
