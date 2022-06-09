@@ -10,5 +10,9 @@ export const Button = ({ onClick, type, children, size = "s" }) => {
     [styles["btn-medium"]]: size === "m",
   });
 
-  return <button className={btnClass}>{children}</button>;
+  return (
+    <button className={btnClass} onClick={onClick}>
+      {children}
+    </button>
+  );
 };
