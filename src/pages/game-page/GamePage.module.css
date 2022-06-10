@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.content {
+  display: flex;
+}
+
+.video {
+  width: 70%;
+}
+
+.description {
+  width: 30%;
+}
+
+.buy-game {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.secondary-text {
+  color: rgb(82, 82, 82);
+}
