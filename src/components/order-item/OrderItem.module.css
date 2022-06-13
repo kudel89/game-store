@@ -1,16 +1,20 @@
 .container {
   display: flex;
-  align-items: center;
-  position: relative;
+  margin-bottom: 30px;
 }
 
-.icon {
-  cursor: pointer;
-  position: relative;
+.cover {
+  width: 200px;
+  margin-right: 30px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .price {
-  margin-left: 15px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
+  margin-left: auto;
 }
