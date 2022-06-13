@@ -6,7 +6,7 @@ import { GameBuy } from "./../../components/game-buy/GameBuy";
 import styles from "./GamePage.module.css";
 
 export const GamePage = () => {
-  const game = useSelector((state) => state.game.currentGame);
+  const game = useSelector((state) => state.games.currentGame);
 
   if (!game) return null;
 
