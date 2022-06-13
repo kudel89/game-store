@@ -1,4 +1,14 @@
 .container {
   display: flex;
-  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.section-left {
+  width: 70%;
+}
+
+.section-right {
+  width: 27%;
+  font-size: 18px;
+  font-weight: bold;
 }
