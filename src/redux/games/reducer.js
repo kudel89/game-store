@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const gamesSlice = createSlice({
-  name: "game",
+  name: "games",
   initialState: {
     currentGame: null,
   },
